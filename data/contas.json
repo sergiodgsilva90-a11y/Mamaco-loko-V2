@@ -1,0 +1,43 @@
+{
+  "contas": [
+    {
+      "id": "001",
+      "nome": "CONTA DO VAZIO PREMIUM – ALTO NÍVEL",
+      "status": "Disponível",
+      "preco": "R$ 1.000",
+      "miticos": ["Embrys", "Mikage"],
+      "vazio": [
+        "Yumeko",
+        "Arbitra Bless 6★",
+        "Graazur",
+        "Leonardo",
+        "Nekhret",
+        "Cardiel",
+        "Cardiel",
+        "Karilon",
+        "Rakka",
+        "Titus"
+      ],
+      "outros": [
+        "Gnut",
+        "Hilvi",
+        "Gurptuk",
+        "Rotos",
+        "Lilitu",
+        "Ratão",
+        "Falmond",
+        "Oella",
+        "Fabian",
+        "Pallas",
+        "Keberon",
+        "Masahiro",
+        "Pelops",
+        "Cheshire",
+        "Edward"
+      ],
+      "imagem": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%231a1a1a' width='400' height='300'/%3E%3Crect fill='%23ff5e57' x='100' y='75' width='200' height='150' rx='10'/%3E%3Ctext x='200' y='160' font-size='24' fill='%23fff' text-anchor='middle' font-weight='bold'%3EVAZIO PREMIUM%3C/text%3E%3C/svg%3E",
+      "descricao": "Conta poderosa pronta para conteúdo avançado de Raid Shadow Legends. Com 2 campeões míticos e múltiplos lendários do vazio, esta conta é perfeita para jogadores que desejam dominar arenas competitivas e progressão de alto nível.",
+      "vendedor": "Sergio Galdino"
+    }
+  ]
+}

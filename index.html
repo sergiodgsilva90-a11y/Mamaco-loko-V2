@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mamako Loko Store - Contas Premium de Raid Shadow Legends com campeões míticos e lendários">
+    <meta name="keywords" content="Raid Shadow Legends, contas RSL, marketplace, comprar contas RSL">
+    <meta name="author" content="Mamako Loko Store - Sergio Galdino">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mamako Loko Store - Contas Premium RSL">
+    <meta property="og:description" content="Contas de alta qualidade com campeões míticos e lendários">
+    <meta property="og:url" content="https://sergiodgsilva90-a11y.github.io/Mamaco-loko-V2/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%23ff5e57' width='100' height='100'/%3E%3Ctext x='50' y='70' font-size='60' fill='%23fff' text-anchor='middle' font-weight='bold'%3E🐒%3C/text%3E%3C/svg%3E">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mamako Loko Store - Contas Premium Raid Shadow Legends</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🐒</span>
+                    <span class="logo-text">MAMAKO LOKO STORE</span>
+                </div>
+                
+                <nav class="nav">
+                    <a href="#home" class="nav-link active">HOME</a>
+                    <a href="#catalogo" class="nav-link">CONTAS</a>
+                    <a href="#contato" class="nav-link">CONTATO</a>
+                </nav>
+                
+                <div class="header-buttons">
+                    <a href="https://www.youtube.com/@MamacoLoko90" target="_blank" class="btn-youtube" title="Nosso YouTube">
+                        📺 YouTube
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1 class="banner-title">🐒 MAMAKO LOKO STORE 🐒</h1>
+            <p class="banner-subtitle">Contas Premium de Raid Shadow Legends</p>
+            <p class="banner-description">Campeões Míticos • Lendários do Vazio • Alto Nível</p>
+            <a href="#catalogo" class="btn-primary">VER CATÁLOGO</a>
+        </div>
+    </section>
+
+    <!-- Busca e Filtros -->
+    <section class="filtros-section">
+        <div class="container">
+            <div class="search-bar">
+                <input type="text" id="searchInput" class="search-input" placeholder="🔍 Buscar contas...">
+            </div>
+            
+            <div class="filtros">
+                <button class="filter-btn active" data-filter="todas">TODAS</button>
+                <button class="filter-btn" data-filter="disponivel">DISPONÍVEL</button>
+                <button class="filter-btn" data-filter="reservada">RESERVADA</button>
+                <button class="filter-btn" data-filter="vendida">VENDIDA</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section id="catalogo" class="catalogo">
+        <div class="container">
+            <h2 class="section-title">Contas Disponíveis</h2>
+            <div id="contasContainer" class="contas-grid">
+                <!-- Carregado via JavaScript -->
+            </div>
+            <div id="loadingMsg" class="loading-msg">Carregando contas...</div>
+            <div id="emptyMsg" class="empty-msg" style="display:none;">Nenhuma conta encontrada.</div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Flutuante -->
+    <a href="https://wa.me/5561993935402?text=Olá!%20Gostaria%20de%20comprar%20uma%20conta%20da%20Mamako%20Loko%20Store!" class="whatsapp-btn" target="_blank" title="Chat WhatsApp">
+        💬
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MAMAKO LOKO STORE</h3>
+                    <p>Contas premium de Raid Shadow Legends com campeões míticos e lendários de alta qualidade.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>LINKS</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#catalogo">Contas</a></li>
+                        <li><a href="https://www.youtube.com/@MamacoLoko90" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>CONTATO</h3>
+                    <ul>
+                        <li>📞 <a href="https://wa.me/5561993935402" target="_blank">+55 61 99393-5402</a></li>
+                        <li>🎥 <a href="https://www.youtube.com/@MamacoLoko90" target="_blank">@MamacoLoko90</a></li>
+                        <li>👤 <strong>Sergio Galdino</strong></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mamako Loko Store | Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
